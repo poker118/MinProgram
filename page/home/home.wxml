@@ -1,0 +1,7 @@
+<!--page/home/home.wxml-->
+<text class="title">Hello World!\n </text>
+<button size="mini" type="warn" plain="true" >Click</button>
+<!--<image src="/timg.jpg" class="number width"></image>-->
+
+<view>1.Section A</view>
+<view>Everything is ok</view>
