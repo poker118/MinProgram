@@ -1,18 +1,3 @@
 <!--page/home/home.wxml-->
-<!-- 1.小程序的数据绑定 -->
-<view>Hello {{name}}</view>
-<view>My age: {{age}}</view>
-
-<view>------------------</view>
-<!-- 2.列表展示 wx:for-->
-<view wx:for="{{students}}" wx:for-index="i">
-  <view wx:if="{{i < 3}}">
-  {{item.name}}: {{item.age}}
-  </view>
-</view>
-
-<view>------------------</view>
-<!-- 3.事件监听改变时间 -->
-<view>Now the counter: {{counter}}</view>
-<button size="mini" bindtap="ButtonPlus"> + </button>
-<button size="mini" bindtap="ButtonMinus"> - </button>
+<!-- 4.全局配置 -->
+<view>Hello, Wechat</view>

@@ -1,6 +1,35 @@
 {
   "pages": [
+    "page/tabBarPages/main/main",
     "page/home/home",
-    "page/about/about"
-  ]
+    "page/about/about",
+    "page/tabBarPages/sort/sort"
+  ],
+  "sitemapLocation": "sitemap34.json",
+  "window": {
+    "navigationBarBackgroundColor": "#00BFFF",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "购物街",
+    "backgroundColor": "#000000",
+    "backgroundTextStyle": "light",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "page/tabBarPages/main/main",
+        "text": "Main",
+        "iconPath": "depository/icon/main.png",
+        "selectedIconPath": "depository/icon/main.png"
+        
+      },
+
+      {
+        "pagePath": "page/tabBarPages/sort/sort",
+        "text": "Sort",
+        "iconPath": "depository/icon/sort.png",
+        "selectedIconPath": "depository/icon/sort.png"
+      }
+    ]
+  }
 }
